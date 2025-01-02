@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project: A Pawfect Match</title>
+
+    <!-- Google Typfaces -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="index.html"><img src="images/APawfectMatch_Logo.png" alt="a pawfect match logo"></a>
+        </h1>
+
+        <nav>
+            <ul>
+                <li><a href="adopt.html">Adopt</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="headerimage">
+            <p><img src="images/headerimage.jpg" alt="header image"></p>
+        </section>
+
+        <section class="mission">
+            <div class="missioninfo">
+                <h2>Our Mission:</h2>
+                <p>At A Pawfect Match, our mission is to unite loving families with homeless pets, providing them with a second chance at life. Through compassionate care, community events, and sustainable adoption practices, we aim to create a world where every animal has a safe, happy, and forever home!</p>
+            </div>
+            
+
+            <article class="missioncard">
+                <h3><a href="adopt.html">Adoption</a></h3>
+                <p>Find your new best friend! Explore our wide range of lovable pets waiting for a forever home, and let us help you make the perfect match.</p>
+            </article>
+
+            <article class="missioncard">
+                <h3><a href="events.html">Volunteer</a></h3>
+                <p>Join us at our exciting events to meet adoptable pets, connect with fellow animal lovers, and support our mission to save lives.</p>
+            </article>
+
+            <article class="missioncard">
+                <h3><a href="donate.html">Donate</a></h3>
+                <p>Make a difference today! Your generous donation provides food, shelter, and medical care for pets in need, bringing them closer to their forever homes.</p>
+            </article>
+        </section>
+
+        <section class="impact">
+            <div class="impactinfo">
+                <h2>Our Impact:</h2>
+            </div>
+
+                <article class="impactcard">
+                    <p class="impactnum">1525</p>
+                    <p class="impactdesc">spay/neuters</p>
+                </article>
+
+                <article class="impactcard">
+                    <p class="impactnum">1525</p>
+                    <p class="impactdesc">adoptions</p> 
+                </article>
+                
+                <article class="impactcard">
+                    <p class="impactnum">888</p>
+                    <p class="impactdesc">adoption events held</p>
+                </article>
+        </section>
+    </main>
+
+    <section class="contact">
+        <div class="contactinfo">
+            <h2 class="contacttitle">Contact Us:</h2>
+            <p>Have questions or want to learn more? Reach out to us via phone, email, or visit our location—we&apos;re here to help you find your perfect pet or answer any inquiries!</p>
+        </div>
+
+        <div class="contactform">
+			<form id="contact-form">
+				<p>
+					<label>Name:</label>
+					<input type="text" name="name" id="name" required>
+				</p>
+
+				<p>
+					<label>Company:</label>
+					<input type="text" name="company" id="company">
+				</p>
+
+				<p>
+					<label>E-mail Address:</label>
+					<input type="email" name="email" id="email" required>
+				</p>
+
+				<p>
+					<label>Phone Number:</label>
+					<input type="text" name="phone" id="phone">
+				</p>
+
+				<p class="full">
+					<label>Message:</label>
+					<textarea name="message" rows="5" id="message"></textarea>
+				</p>
+
+				<p class="full">
+					<button type="submit">Submit</button>
+				</p>
+			</form>
+    </section>
+
+    <div class="spacer"></div>
+
+    <footer class="footer">
+        <div class="footer__addr">
+            <address>
+                <strong>A Pawfect Match</strong><br>
+                1234 Random Street<br>
+                Davis, CA 95616<br>
+            </address>
+        </div>
+        
+        <ul class="footer__nav">
+            <li class="nav__item">
+                <h2 class="nav__title"><strong>Navigation</strong></h2>
+      
+                <ul class="nav__ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="adopt.html">Adopt</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="information.html">Information</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </li>
+          
+            <li class="nav__item">
+                <h2 class="nav__title"><strong>Connect with Us:</strong></h2>
+
+                <ul class="nav__ul">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+        <div class="legal">
+            <p><strong>&copy; 2024</strong> All rights reserved.</p>
+            
+            <div class="legal__links">
+                <span>Made with <span class="heart">♥</span> in Davis</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
