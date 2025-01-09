@@ -1,0 +1,723 @@
+/********** CSS RESET ***********/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+main, article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+nav ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/********** END CSS RESET ***********/
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.inter-type {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;
+  font-style: normal; */
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700 */
+
+.fredoka-font {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; */
+}
+
+/******** LINK *******/
+
+body a {
+	color: inherit;
+}
+
+body a:link {
+	text-decoration: none;
+}
+
+body a:visited {
+    color: inherit;
+  }
+
+body nav ul li a:hover {
+    color: #BDE1FF;
+}
+
+/******** TYPOGRAPHY ********/
+
+body {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+    color: black;
+    line-height: 1.5em;
+}
+
+nav {
+	color: #FFF;
+	text-align: right;
+	font-family: "Fredoka";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+h1, h2, h3, h4, strong {
+    font-weight: 500;
+}
+
+/******** Mission ********/
+
+.mission h2 {
+	color: #FFF;
+	text-align: center;
+	font-family: "Fredoka";
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.mission p {
+	color: #FFF;
+	text-align: center;
+	font-family: "Fredoka";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.mission article p {
+	color: #000;
+	font-family: "Fredoka";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.mission article h3 {
+	color: #4F91C7;
+	text-align: center;
+	font-family: "Fredoka";
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+/******** Impact ********/
+
+.impact h2 {
+	color: #4F91C7;
+	text-align: center;
+	font-family: "Fredoka";
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.impactnum {
+	color: #9F9F9F;
+	text-align: center;
+	font-family: "Inter";
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.impactdesc {
+	color: #4F91C7;
+	text-align: center;
+	font-family: "Fredoka";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+/******** Contact ********/
+
+.contacttitle {
+	color: #FFF;
+	text-align: center;
+	font-family: "Fredoka";
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.contact p {
+	color: #FFF;
+	text-align: center;
+	font-family: "Fredoka";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+/******** Adopt ********/
+
+.adopt h2 {
+	color: #4F91C7;
+	font-family: "Fredoka";
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.card h2 {
+	color: #FFF;
+	text-align: center;
+	font-family: "Fredoka";
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+section p {
+	color: #9F9F9F;
+	font-family: "Fredoka";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+main ul {
+	color: #9F9F9F;
+	font-family: "Fredoka";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+article h2 {
+	color: #FFF;
+	text-align: center;
+	font-family: "Fredoka";
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+article p {
+	color: #FFF;
+	font-family: "Fredoka";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.card h2 {
+    text-align: center;
+}
+
+/******** Events ********/
+
+.events h2 {
+	color: #4F91C7;
+	font-family: "Fredoka";
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	padding-bottom: 8px;
+}
+
+/******** Information ********/
+
+.info h2 {
+	color: #4F91C7;
+	font-family: "Fredoka";
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	padding-bottom: 8px;
+}
+
+/******** Donate ********/
+
+.donate h2 {
+	color: #4F91C7;
+	font-family: "Fredoka";
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	padding-bottom: 8px;
+}
+
+/******** About ********/
+
+.about h2 {
+	color: #4F91C7;
+	font-family: "Fredoka";
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	padding-bottom: 8px;
+}
+
+/******** LAYOUT ********/
+
+body {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/******** HEADER ********/
+
+.headerimage {
+	display: block;
+	padding: 10px 0;
+}
+
+header {
+    background-color: #67A6DA;
+    text-align: center;
+	height: 102px;
+	margin: auto;
+}
+
+header h1 {
+	float: left;
+	padding-top: 22px;
+	padding-left: 30px;
+}
+
+header nav {
+	float: right;
+	padding-top: 39px;
+	padding-right: 20px;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+header nav ul li a {
+	color: inherit;
+}
+
+/* header a:link {
+	text-decoration: none;
+}
+
+header a:visited {
+    color: inherit;
+  }
+
+header nav ul li a:hover {
+    color: #BDE1FF;
+} */
+
+/******** Mission ********/
+
+.mission {
+	background-color: #67A6DA;
+}
+
+.mission article {
+	background-color: white;
+}
+
+.mission article h3 {
+	background-color: #BDE1FF;
+}
+
+.mission {
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
+    padding: 35px 60px 45px 60px;
+}
+
+.missioninfo {
+	/* start on row 1 column 1, and span 1 rows and 4 columns */
+	grid-area: 1/1/1/4;
+}
+
+.missioninfo h2 {
+	padding-bottom: 8px;
+}
+
+.missioninfo p {
+	padding-bottom: 20px;
+}
+
+.mission h3 {
+	padding: 15px 58px 15px 58px;
+}
+
+.missioncard {
+	display: flex;
+    flex-direction: column;
+}
+
+.missioncard p {
+	padding: 20px 15px 20px 15px;
+}
+
+/******** Impact ********/
+
+.impact {
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
+    padding: 35px 60px 45px 60px;
+}
+
+.impactinfo {
+	/* start on row 1 column 1, and span 1 rows and 4 columns */
+	grid-area: 1/1/1/4;
+	justify-content: center;
+}
+
+.impactcard {
+	display: flex;
+    flex-direction: column;
+	padding: 25px 50px 35px 50px;
+	border: 2px solid #BDE1FF;
+}
+
+/******** Contact ********/
+
+.contact {
+	background-color: #67A6DA;
+	display: block;
+	padding-bottom: 35px;
+}
+
+.contactinfo {
+	padding-top: 35px;
+}
+
+.contactinfo p {
+	padding: 0 80px;
+}
+
+.contactinfo h2 {
+	padding-bottom: 5px;
+}
+
+.contactform {
+	padding-top: 40px;
+}
+
+/******** Contact Form ********/
+
+.contact form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	width: 600px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+  
+.contact form label {
+	display: block;
+	padding-bottom: 4px;
+}
+  
+.contact form p {
+	margin: 0;
+	text-align: left;
+}
+  
+.contact form .full {
+	grid-column: 1 / 3;
+}
+  
+.contact form button, .contact form input, .contact form textarea {
+	width: 100%;
+	padding: 1em;
+	border: solid 1px #4F91C7;
+	border-radius: 4px;
+}
+  
+.contact form textarea {
+	resize: none;
+}
+  
+.contact form button {
+	background: white;
+	border: 0;
+	color: #4F91C7;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+  
+.contact form button:hover, .contact form button:focus {
+	background: #367ab2;
+	color: #ffffff;
+	outline: 0;
+	transition: background-color 2s ease-out;
+}
+
+/******** Adopt ********/
+
+.adopt {
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.adoptinfo{
+	/* start on row 1 column 1, and span 1 rows and 4 columns */
+	grid-area: 1/1/1/4;
+	padding-top: 45px;
+	padding-bottom: 55px;
+}
+
+.adopt h2 {
+	padding-bottom: 8px;
+}
+
+/******** Donate ********/
+
+.donate button {
+	background-color: #367ab2;
+	color: white;
+	font-size: 20px;
+	font-family: "Fredoka";
+	border: none;
+	padding: 10px 15px;
+}
+
+.donate button a:link {
+	text-decoration: none;
+}
+
+.donate button a:visited {
+    color: inherit;
+  }
+
+.donate button a:hover {
+    color: #BDE1FF;
+}
+
+/******** Other ********/
+
+.card h2 {
+	background-color: #67A6DA;
+	padding: 15px 58px 15px 58px;
+}
+
+.card p img {
+	/* padding: top right bottom left */
+	padding: 15px 20px 15px 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card {
+    background-color: #BDE1FF;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.age {
+	padding-bottom: 8px;
+}
+
+.description {
+	background-color: #67A6DA;
+	/* padding: top right bottom left */
+    padding: 14px 20px 14px 20px;
+}
+
+.spacer {
+	padding: 25px 0;
+}
+
+.spacersmall {
+	padding: 8px 0;
+}
+
+.spacerxsmall {
+	padding: 2px 0;
+}
+
+main ul {
+	list-style-type: none;
+}
+
+/******** FOOTER ********/
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.footer {
+	font-family: "Fredoka";
+	font-style: normal;
+	line-height: normal;
+	display: flex;
+	flex-flow: row wrap;
+	padding: 30px 30px 20px 30px;
+	color: white;
+	background-color: #67A6DA;
+}
+  
+.footer > * {
+	flex:  1 100%;
+}
+  
+.footer__addr {
+	margin-right: 1.5em;
+	margin-bottom: 2em;
+}
+  
+.footer__addr h2 {
+	margin-top: 1.3em;
+	font-weight: 400;
+}
+  
+.nav__title {
+	font-weight: 400;
+	padding-bottom: 2.5px;
+}
+  
+.footer address {
+	font-style: normal;
+}
+  
+.footer ul {
+	list-style: none;
+	padding-left: 0;
+}
+  
+.footer a {
+	text-decoration: none;
+}
+
+.footer a:link {
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #BDE1FF;
+}
+  
+.footer__nav {
+	display: flex;
+	flex-flow: row wrap;
+	padding-bottom: 20px;
+}
+  
+.footer__nav > * {
+	flex: 1 50%;
+	margin-right: 1.25em;
+}
+  
+.nav__ul a {
+	color: white;
+}
+
+.nav__ul a:link {
+	color: white;
+}
+
+.nav__ul a:hover {
+	color: #BDE1FF;
+}
+  
+.legal {
+	display: flex;
+	flex-wrap: wrap;
+	color: white;
+}
+	
+.legal__links {
+	display: flex;
+	align-items: center;
+}
+  
+.heart {
+	color: white;
+}
+  
+@media screen and (min-width: 24.375em) {
+	.legal .legal__links {
+	  margin-left: auto;
+	}
+}
+  
+@media screen and (min-width: 40.375em) {
+	.footer__nav > * {
+	  flex: 1;
+	}
+	
+	.footer__addr {
+	  flex: 1 0px;
+	}
+	
+	.footer__nav {
+	  flex: 2 0px;
+	}
+}
